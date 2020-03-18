@@ -40,6 +40,7 @@
             this.saveAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAllBackupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveBackupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +91,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clearToolStripMenuItem,
             this.saveToolStripMenuItem,
+            this.saveBackupToolStripMenuItem,
             this.saveAllToolStripMenuItem,
             this.saveAllBackupToolStripMenuItem,
             this.exitToolStripMenuItem});
@@ -108,7 +110,7 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.saveToolStripMenuItem.Text = "&Save";
+            this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAllToolStripMenuItem
@@ -131,6 +133,13 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // saveBackupToolStripMenuItem
+            // 
+            this.saveBackupToolStripMenuItem.Name = "saveBackupToolStripMenuItem";
+            this.saveBackupToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveBackupToolStripMenuItem.Text = "Save + Backup";
+            this.saveBackupToolStripMenuItem.Click += new System.EventHandler(this.saveBackupToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -158,5 +167,6 @@
         private System.Windows.Forms.ToolStripMenuItem saveAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAllBackupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveBackupToolStripMenuItem;
     }
 }

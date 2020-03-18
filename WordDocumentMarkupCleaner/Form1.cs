@@ -340,6 +340,17 @@ namespace WordDocumentMarkupCleaner
                 return false;
             }
         }
+
+        private void saveBackupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var lvi = listView1.SelectedItems[0];
+            // Added to prevent errors when nothing was selected
+            if (listView1.SelectedItems.Count > 0)
+            {
+                if (CreateBackup(lvi))
+                    CleanAndSaveItem(lvi);
+            }
+        }
     }
 }
 
