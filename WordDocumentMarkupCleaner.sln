@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocumentMarkupCleaner", "CleanWordDocuments\WordDocumentMarkupCleaner.csproj", "{039B8C29-7DFF-4149-A29E-B2D3C2342871}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocumentMarkupCleaner", "WordDocumentMarkupCleaner\WordDocumentMarkupCleaner.csproj", "{039B8C29-7DFF-4149-A29E-B2D3C2342871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
