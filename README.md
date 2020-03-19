@@ -9,6 +9,11 @@
 - Cleans OpenXML Word Documents (.docx) from unnecessary markup. 
 - Uses OpenXmlPowerTools by Eric White
 - Offers batchprocessing and backups (.docx.bak)
+- shows 4 states: white = unsaved, green = saved, yellow = not saved to prevent backup overwrite, red = error (details in tooltip)
+
+## Usage:
+
+- Drag and Drop files from the explorer and choose the desired action from the file menu. That simple!
 
 ### Default settings:
 
