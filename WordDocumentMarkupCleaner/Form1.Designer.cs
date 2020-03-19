@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ilLarge = new System.Windows.Forms.ImageList(this.components);
             this.ilSmall = new System.Windows.Forms.ImageList(this.components);
             this.listView1 = new System.Windows.Forms.ListView();
@@ -37,10 +38,10 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveBackupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAllBackupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveBackupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,44 +103,44 @@
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
             this.clearToolStripMenuItem.Text = "Clear List";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // saveBackupToolStripMenuItem
+            // 
+            this.saveBackupToolStripMenuItem.Name = "saveBackupToolStripMenuItem";
+            this.saveBackupToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
+            this.saveBackupToolStripMenuItem.Text = "Save + Backup";
+            this.saveBackupToolStripMenuItem.Click += new System.EventHandler(this.saveBackupToolStripMenuItem_Click);
             // 
             // saveAllToolStripMenuItem
             // 
             this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
-            this.saveAllToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveAllToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
             this.saveAllToolStripMenuItem.Text = "Save All";
             this.saveAllToolStripMenuItem.Click += new System.EventHandler(this.saveAllToolStripMenuItem_Click);
             // 
             // saveAllBackupToolStripMenuItem
             // 
             this.saveAllBackupToolStripMenuItem.Name = "saveAllBackupToolStripMenuItem";
-            this.saveAllBackupToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveAllBackupToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
             this.saveAllBackupToolStripMenuItem.Text = "Save All + Backup";
             this.saveAllBackupToolStripMenuItem.Click += new System.EventHandler(this.saveAllBackupToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(255, 34);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // saveBackupToolStripMenuItem
-            // 
-            this.saveBackupToolStripMenuItem.Name = "saveBackupToolStripMenuItem";
-            this.saveBackupToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.saveBackupToolStripMenuItem.Text = "Save + Backup";
-            this.saveBackupToolStripMenuItem.Click += new System.EventHandler(this.saveBackupToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -147,6 +148,7 @@
             this.ClientSize = new System.Drawing.Size(723, 447);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "WordDocumentMarkupCleaner";
