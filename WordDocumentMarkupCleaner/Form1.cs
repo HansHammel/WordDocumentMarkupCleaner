@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;
+﻿using DocumentFormat.OpenXml.Packaging;
 using OpenXmlPowerTools;
-using DocumentFormat.OpenXml.Packaging;
-using System.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace WordDocumentMarkupCleaner
 {
