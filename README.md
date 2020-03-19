@@ -1,6 +1,6 @@
 # WordDocumentMarkupCleaner
 
-*** Caution! Changes your docx Files! Currupted files, missing xml or external data may lead to data loss***
+**Caution! Changes your docx Files! Currupted files, missing xml or external data may lead to data loss**
 
 ![Screenshot](screenshot.jpg?raw=true "Screenshot")
 
